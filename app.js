@@ -36,7 +36,7 @@ setInterval(() => {
     .on("end", () => {
       console.log("Successfully Updated Transactions");
     });
-}, 1000);
+}, 300000);
 
 //API GET call
 app.get("/assignment/transaction/:transactionId/", (request, response) => {
